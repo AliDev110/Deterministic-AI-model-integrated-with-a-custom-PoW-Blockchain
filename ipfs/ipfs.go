@@ -36,7 +36,7 @@ func DownloadFile(cid string) ([]byte, error) {
 	}
 
 	// Add authorization header with API key
-	apiKey := "Bearer a0bde220f72a645ce158"
+	apiKey := "Bearer XXXXXXXXXXXXXX" //Replace Xs with your actual API key
 	req.Header.Add("Authorization", apiKey)
 
 	resp, err := client.Do(req)
